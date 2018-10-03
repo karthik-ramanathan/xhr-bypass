@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/karthik-ramanathan/xhr-proxy/issues"
   },
-  "homepage": "https://github.com/karthik-ramanathan/xhr-proxy#readme"
+  "homepage": "https://github.com/karthik-ramanathan/xhr-proxy#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
