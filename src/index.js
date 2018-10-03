@@ -1,6 +1,6 @@
 const request = require("request");
 
-const XHRProxy = {
+const XHRBypass = {
     GET(config, callback){
         request({
             url: config.url, 
@@ -24,4 +24,4 @@ const XHRProxy = {
     }
 };
 
-export default XHRProxy;
+export default XHRBypass;
