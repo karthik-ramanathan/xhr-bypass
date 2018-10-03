@@ -1,6 +1,6 @@
 {
   "name": "xhr-bypass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "proxy for xhr especially useful in unit testing to make api calls",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karthik-ramanathan/xhr-proxy.git"
+    "url": "git+https://github.com/karthik-ramanathan/xhr-bypass.git"
   },
   "author": "Karthik Ramanathan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karthik-ramanathan/xhr-proxy/issues"
+    "url": "https://github.com/karthik-ramanathan/xhr-bypass/issues"
   },
-  "homepage": "https://github.com/karthik-ramanathan/xhr-proxy#readme",
+  "homepage": "https://github.com/karthik-ramanathan/xhr-bypass#readme",
   "dependencies": {
     "request": "^2.88.0"
   }
