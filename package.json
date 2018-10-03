@@ -1,6 +1,6 @@
 {
   "name": "xhr-bypass",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "proxy for xhr especially useful in unit testing to make api calls",
   "main": "index.js",
   "scripts": {
