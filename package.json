@@ -1,0 +1,19 @@
+{
+  "name": "xhr-proxy",
+  "version": "1.0.0",
+  "description": "proxy for xhr especially useful in unit testing to make api calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthik-ramanathan/xhr-proxy.git"
+  },
+  "author": "Karthik Ramanathan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karthik-ramanathan/xhr-proxy/issues"
+  },
+  "homepage": "https://github.com/karthik-ramanathan/xhr-proxy#readme"
+}
