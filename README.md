@@ -29,3 +29,34 @@ XHRBypass.POST({
 })
 
 ```
+
+## An perfect example in JEST Unit Testing
+
+```
+import { shallow, mount, render } from 'enzyme';
+import XHRBypass from "xhr-bypass";
+
+import Sample from './Sample.jsx';
+
+let customData = null;
+
+describe("Testing the logon duration card component in the users page for all its child components", () => {
+  test("fetching data", (done) => {
+    XHRBypass.GET({url: "https://reqres.in/api/users?page=3"}, (error, body)=>{
+      //customData = JSON.parse(body);
+      customData = body;
+      expect(customData.data.length).toBeGreaterThan(0);
+      done();
+    })
+  })
+  
+  test("contains <Sample /> component", async () => {
+    let wrapper = mount(<Sample data={customData.data}/>);
+      const container = wrapper.find("li");
+      //console.log(container.debug())
+      expect(container.length).toBe(3);
+  });
+  
+});
+
+```
