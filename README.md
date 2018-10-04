@@ -8,6 +8,7 @@ npm install --save xhr-bypass
 ### Methods
 
 .GET() - to fire a get method
+
 .POST() - to fire a post method
 
 ### Usage
