@@ -41,7 +41,7 @@ import Sample from './Sample.jsx';
 
 let customData = null;
 
-describe("Testing the logon duration card component in the users page for all its child components", () => {
+describe("Testing the component", () => {
   test("fetching data", (done) => {
     XHRBypass.GET({url: "https://reqres.in/api/users?page=3"}, (error, body)=>{
       //customData = JSON.parse(body);
